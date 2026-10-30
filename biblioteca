@@ -1,0 +1,119 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="es">
+<head>
+
+    <!-- Permite utilizar caracteres como á, é, í, ó y ñ -->
+    <meta charset="UTF-8">
+
+    <!-- Hace que la página sea adaptable a celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título de la pestaña -->
+    <title>Escamas y Tinta</title>
+
+    <!-- Conectamos el HTML con el archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         MENÚ DE NAVEGACIÓN
+         ===================================================== -->
+
+    <header>
+
+        <nav>
+
+            <!-- Nombre / logo de la página -->
+            <div class="logo">
+
+                 <span>Escamas y tinta</span>
+
+            </div>
+
+
+            <!-- Opciones del menú -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#generos">Generos</a>
+                </li>
+
+                <li>
+                    <a href="#ediciones">Ediciones</a>
+                </li>
+
+                <li>
+                    <a href="envios">Envios</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+
+         <main>
+
+
+        <!-- =====================================================
+             PORTADA
+             ===================================================== -->
+
+        <section id="inicio" class="hero">
+
+            <!-- Contenido de la portada -->
+            <div class="hero-content">
+
+                <p class="mini-title">
+
+                    terror • Fantasia • Ediciones Especiales 
+
+                </p>
+
+
+                <h1>
+
+                    Todos los generos
+                    <span>estan aqui</span>
+
+                </h1>
+
+
+                <p class="hero-text">
+
+                    Descubre y compra lo nuevo que trae DAWX 
+                    y se uno mas de este mundo DAWX.
+
+                </p>
+
+
+                <!-- Botón que lleva a las películas -->
+                <a href="#PRINTS" class="cta-button">
+
+                    Ver PRINTS →
+
+                </a>
+
+            </div>
+
+        </section>

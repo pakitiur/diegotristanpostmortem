@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Permite utilizar caracteres como á, é, í, ó y ñ -->
+    <meta charset="UTF-8">
+
+    <!-- Hace que la página sea adaptable a celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título de la pestaña -->
+    <title>post mortem</title>
+
+    <!-- Conectamos el HTML con el archivo CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         MENÚ DE NAVEGACIÓN
+         ===================================================== -->
+
+    <header>
+
+        <nav>
+
+            <!-- Nombre / logo de la página -->
+            <div class="logo">
+
+                 <span>Post Mortem</span>
+
+            </div>
+
+
+            <!-- Opciones del menú -->
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#inicio">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="#Tomos">Tomos</a>
+                </li>
+
+                <li>
+                    <a href="#ediciones">Ediciones</a>
+                </li>
+
+                <li>
+                    <a href="Proximas obras">proximo</a>
+                </li>
+
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <!-- EL CARRITO -->
+             <div class="carrito">
+              <h2>Tu carrito</h2>
+              <ul id="lista"></ul>
+             <p>Total: $<span id="total">0</span></p>
+              <button id="vaciar">Vaciar carrito</button>
+    </div>
+
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =====================================================
+             PORTADA
+             ===================================================== -->
+
+        <section id="inicio" class="hero">
+
+            <!-- Contenido de la portada -->
+            <div class="hero-content">
+
+                <p class="mini-title">
+
+                    Tomos • Notas del Autor • Ediciones
+
+                </p>
+
+
+                <h1>
+
+                    Toda la saga 
+                    <span>estan aqui</span>
+
+                </h1>
+
+
+                <p class="hero-text">
+
+                    Descubre y compra los capitulos que te faltan 
+                    o compra las ediciones especiales.
+
+                </p>
+
+
+                <!-- Botón que lleva a las películas -->
+                <a href="#Tomos" class="cta-button">
+
+                    Ver Tomos →
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             PELÍCULAS
+             ===================================================== -->
+
+        <section id="Tomos">
+
+
+            <!-- Título de la sección -->
+
+            <div class="section-title">
+
+                <div>
+
+                    <p class="section-number">
+                        01 / TOMOS 
+                    </p>
+
+
+                    <h2>
+
+                        ¿Cuales te  
+                        <span>faltan?</span>
+
+                    </h2>
+
+
+                    <p class="section-description">
+
+                        Explora y llevate el que
+                        mas te guste.
+
+                    </p>
+
+                </div>
+
+
+                <p class="total-peliculas">
+                    TOMOS
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 TARJETAS DE PELÍCULAS
+                 ================================================= -->
+
+            <div class="peliculas-grid">
+
+
+                <!-- =================================================
+                     PELÍCULA 1
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/portada 11.jpg"
+                            alt="BULLY"
+                        >
+
+                        <span class="año-badge">
+                            2009
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            El Inicio de Todo
+                        </p>
+
+
+                        <h3>
+                            No soy un serial killer
+                        </h3>
+
+
+                        <p>
+
+                            No soy un serial killer es el primer libro dentro
+                            la saga "John Cleaver" el cual fue diagnosticado
+                            como un sociopata y tiene una obsesion por asesinos
+                            seriales es por eso que sigue una lista de reglas 
+                            estrictas para no convertirse en uno pero todo Cambia
+                            cuando un asesino serial llega a la ciudad Sin embargo,
+                            un verdadero asesino serial comienza a aterrorizar a 
+                            su pequeña comunidad de Clayton. 
+
+                        </p>
+
+
+                        <!--
+                            details permite abrir y cerrar
+                            información adicional.
+                        -->
+
+                        <details>
+
+                            <summary>
+                                PRECIO
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    <div class="contenedor-tarjetas">
+
+        <div class="tarjeta" data-titulo="Producto 1" data-precio="100">
+            <h3>No soy un serial killer</h3>
+            <p>$360</p>
+            <button class="agregar">Agregar</button>
+        </div>
+                                     
+                                     
+                                    
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 2
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/portada 12.jpg"
+                            alt="Bloodsport"
+                        >
+
+                        <span class="año-badge">
+                            2010
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            Ser humano o monstruo
+                        </p>
+
+
+                        <h3>
+                            No soy el señor monstruo
+                        </h3>
+
+
+                        <p>
+
+                            Tras los eventos del primer libro,John ha tenido que 
+                            liberar a su "demonio interno" para salvar al pueblo, 
+                            y ahora controlar a ese "Señor Monstruo" es más difícil
+                            que nunca. Mientras lidia  con la culpa, el miedo y la 
+                            atención de una chica llamada Marci, un nuevo peligro llega 
+                            a Clayton.Alguien está secuestrando y torturando personas,
+                            y John se da cuenta de que el primer asesino no era el único 
+                            de su especie.
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                PRECIO
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    <div class="contenedor-tarjetas">
+
+        <div class="tarjeta" data-titulo="Producto 1" data-precio="100">
+            <h3>No soy el señor monstruo</h3>
+            <p>$360</p>
+            <button class="agregar">Agregar</button>
+        </div>
+                                     
+                                    
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 3
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/portada 13.jpg"
+                            alt="Los Cazafantasmas"
+                        >
+
+                        <span class="año-badge">
+                            2011
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            Ser la Presa o el Cazador
+                        </p>
+
+
+                        <h3>
+                            No quiero matarte
+                        </h3>
+
+
+                        <p>
+
+                            John ha logrado derrotar a dos monstruos, pero el 
+                            precio ha sido demasiado alto. Ahora, el resto de 
+                            los "Invasores" saben quién es él y lo quieren muerto.
+                            Una nueva y letal entidad llega al pueblo con el único
+                            objetivo de destruir a John y a todos los que ama. Cansado
+                            de esconderse y de ver sufrir a su familia John decide
+                            pasar de ser la presa a convertirse en el cazador definitivo.
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                PRECIO
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    <div class="contenedor-tarjetas">
+
+        <div class="tarjeta" data-titulo="Producto 1" data-precio="100">
+            <h3>No quiero matarte</h3>
+            <p>$370</p>
+            <button class="agregar">Agregar</button>
+        </div>
+                                     
+                                     
+                                    
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 4
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/portada 14.jpg"
+                            alt="Gremlins"
+                        >
+
+                        <span class="año-badge">
+                            2015
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            Paranoia y Amnesia
+                        </p>
+
+
+                        <h3>
+                            El único amigo del demonio
+                        </h3>
+
+
+                        <p>
+
+                            Han pasado los años y John ya no vive una vida normal.
+                            Ahora trabaja para el FBI como parte de un equipo secreto
+                            dedicado exclusivamente a cazar e investigar a los Invasores
+                            a lo largo del país. Aunque cuenta con recursos y un 
+                            propósito claro la paranoia y el desgaste emocional hacen 
+                            mella en él.Cuando el equipo se enfrenta a una entidad 
+                            ancestral que borra los recuerdos de sus víctimas, John 
+                            se da cuenta de que las reglas del juego han cambiado.
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                PRECIO
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    <div class="contenedor-tarjetas">
+
+        <div class="tarjeta" data-titulo="Producto 1" data-precio="100">
+            <h3>El único amigo del demonio</h3>
+            <p>$360</p>
+            <button class="agregar">Agregar</button>
+        </div>
+                                     
+                                    
+                                    
+
+                                </p>
+
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 5
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/portada 15.jpg"
+                            alt="El Karate Kid"
+                        >
+
+                        <span class="año-badge">
+                            2016
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            PRINTS • PLAYERAS
+                        </p>
+
+
+                        <h3>
+                            Sobre tu cadáver
+                        </h3>
+
+
+                        <p>
+
+                            Tras un golpe devastador al equipo del FBI, John se
+                            encuentra huyendo y completamente solo, acompañado 
+                            únicamente por los recuerdos de los que ha perdido.Sin
+                            dinero y moviéndose en la clandestinidad, persigue a una
+                            peligrosa pareja de Invasores a través de los Estados Unidos.
+                            En este viaje de supervivencia extrema, la línea entre el 
+                            héroe y el monstruo se desvanece por completo, obligando a 
+                            John a cometer actos terribles.
+
+                            
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                PRECIO
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    <div class="contenedor-tarjetas">
+
+        <div class="tarjeta" data-titulo="Producto 1" data-precio="100">
+            <h3>Sobre tu cadáver</h3>
+            <p>$404</p>
+            <button class="agregar">Agregar</button>
+        </div>
+                                    
+                                    
+                                
+
+                                </p>
+
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+             
+            
+
+            
+
+        </section>
+
+
+
+
+        <section id="CLOTHES">
+
+
+            <!-- Título de la sección -->
+
+            <div class="section-title">
+
+                <div>
+
+                    <p class="section-number">
+                        02 / EDICIONES
+                    </p>
+
+
+                    <h2>
+
+                        LAS EDICIONES 
+                        <span>TAMBIEN ESTAN AQUI</span>
+
+                    </h2>
+
+
+                    <p class="section-description">
+
+                        Explora y llevate el que
+                        mas te guste.
+
+                    </p>
+
+                </div>
+
+
+                <p class="total-peliculas">
+                    EDICIONES
+                </p>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 TARJETAS DE PELÍCULAS
+                 ================================================= -->
+
+            <div class="peliculas-grid">
+
+
+                <!-- =================================================
+                     PELÍCULA 1
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="CLOTHES">
+
+                        <img
+                            src="img/edicion.jpg"
+                            alt="BULLY"
+                        >
+
+                        <span class="año-badge">
+                            2018
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            EDICION
+                        </p>
+
+
+                        <h3>
+                            Saga john cleaver parte 1
+                        </h3>
+
+
+                        <p>
+
+                            ten a la mano los 3 primeros libros de la 
+                            saga que conllevan la vida juvenil del 
+                            protagonista asi como la dualidad con su 
+                            lado oscuro.
+
+                        </p>
+
+
+                        <!--
+                            details permite abrir y cerrar
+                            información adicional.
+                        -->
+
+                        <details>
+
+                            <summary>
+                                PRECIO
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                    <div class="tarjeta" data-titulo="Producto 1" data-precio="100">
+            <h3>Edicion primera parte</h3>
+            <p>$840</p>
+            <button class="agregar">Agregar</button>
+        </div>
+                
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 2
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/Captura de pantalla 2026-10-27 151504.png"
+                            alt="Bloodsport"
+                        >
+
+                        <span class="año-badge">
+                            2018
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            EDICION
+                        </p>
+
+
+                        <h3>
+                            Saga john cleaver parte 2
+                        </h3>
+
+
+                        <p>
+
+                            ten a la mano los 2 ultimos libros de la 
+                            saga que conllevan su estapa adulta del 
+                            protagonista asi como el desenlance de 
+                            su dualidad con su lado oscuro.
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                PRECIO
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                  <div class="tarjeta" data-titulo="Producto 1" data-precio="100">
+            <h3>Edicion primera parte</h3>
+            <p>$840</p>
+            <button class="agregar">Agregar</button>
+        </div>  
+                                
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                     PELÍCULA 3
+                     ================================================= -->
+
+                <div class="pelicula-card">
+
+
+                    <div class="poster">
+
+                        <img
+                            src="img/Captura de pantalla 2026-10-27 151504.png"
+                            alt="Los Cazafantasmas"
+                        >
+
+                        <span class="año-badge">
+                            2021
+                        </span>
+
+                    </div>
+
+
+                    <div class="card-content">
+
+
+                        <p class="genero">
+                            EDICION
+                        </p>
+
+
+                        <h3>
+                            Edicion completa
+                        </h3>
+
+
+                        <p>
+
+                            La edicion mas completa y mejorada para todos
+                            los fans de esta saga de libros 
+
+                        </p>
+
+
+                        <details>
+
+                            <summary>
+                                Ver detalles
+                            </summary>
+
+
+                            <div class="descripcion-detalle">
+
+                                <p>
+
+                                  <div class="tarjeta" data-titulo="Producto 1" data-precio="100">
+            <h3>Edicion primera parte</h3>
+            <p>$840</p>
+            <button class="agregar">Agregar</button>
+        </div>                            
+
+                                </p>
+
+                            </div>
+
+                        </details>
+
+                    </div>
+
+                </div>
+
+
+
+
+        </section>
+
+
+
+
+
+        <!-- =====================================================
+             LA DÉCADA
+             ===================================================== -->
+
+        <section id="decada">
+
+
+            <div class="decada-container">
+
+
+                <div class="decada-texto">
+
+                    <p class="section-number">
+                        03 / Proximas Obras
+                    </p>
+
+
+                    <h2>
+
+                        Para Todos Los Fans
+                        <span>Del Escritor Dan Wells</span>
+
+                    </h2>
+
+
+                    <p>
+
+                        Dan Wells, es un escritor estadounidense nacido
+                        el 4 de marzo de 1977 en Utah Es reconocido 
+                        internacionalmente por sus novelas que mezclan el 
+                        thriller psicológico  el terror y la ciencia ficción, 
+                        orientadas principalmente al público juvenil y adulto
+
+                        y es por eso que esta pagina esta dedicada a tambien 
+                        distribuir no solo esta saga de libros si no mas de los
+                        demas libros del autor asi como sus participaciones en 
+                        distintos medios.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="decada-items">
+
+
+                    <div>
+
+                        <strong>🎬</strong>
+
+                        <span>
+                            Peliculas
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>🎮</strong>
+
+                        <span>
+                            Video Juegos
+                        </span>
+
+                    </div>
+
+
+                    <div>
+
+                        <strong>✨</strong>
+
+                        <span>
+                            Estilos únicos
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =====================================================
+             CONTACTO
+             ===================================================== -->
+
+        <section id="contacto">
+
+
+            <div class="contacto-container">
+
+
+                <div>
+
+                    <p class="section-number">
+                        04 / CONTACTO
+                    </p>
+
+
+                    <h2>
+
+                        ¿Que es lo que
+                        <span>vas ORDENAR?</span>
+
+                    </h2>
+
+
+                    <p>
+
+                        Ordena cualquiera de los productos
+                        y coloca tu direccion .
+
+                    </p>
+
+                </div>
+
+
+                <!-- Formulario -->
+
+                <form id="formulario">
+
+                    <div class="form-row">
+
+
+                        <input
+                            type="text"
+                            placeholder="Nombre"
+                            required
+                        >
+
+
+                        <input
+                            type="email"
+                            placeholder="Correo electrónico"
+                            required
+                        >
+
+                    </div>
+
+
+                    <textarea
+                        placeholder="Escribe tu direccion..."
+                        required
+                    ></textarea>
+
+
+                    <button type="submit">
+
+                        Enviar mensaje →
+
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+
+    <footer>
+
+        <div class="footer-content">
+
+
+            <div class="logo">
+
+                POST <span>MORTEM</span>
+
+            </div>
+
+
+            <p>
+
+                Descrubre este historia oscura.
+
+            </p>
+
+
+            <small>
+
+                POST MORTEM © 2026
+
+            </small>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+         ===================================================== -->
+
+    <script>
+
+        /*
+            Esta función recibe la dirección de la imagen
+            y el nombre de la película.
+        */
+
+        function abrirImagen(imagen, nombre) {
+
+            /* Cambiamos la imagen del visor */
+
+            document.getElementById("imagen-grande").src = imagen;
+
+
+            /* Mostramos el nombre */
+
+            document.getElementById("nombre-imagen").textContent = nombre;
+
+
+            /* Mostramos la ventana */
+
+            document
+                .getElementById("visor-imagen")
+                .classList.add("mostrar");
+
+        }
+
+
+        /*
+            Esta función cierra la imagen.
+        */
+
+        function cerrarImagen() {
+
+            document
+                .getElementById("visor-imagen")
+                .classList.remove("mostrar");
+
+        }
+
+
+        /*
+            También podemos cerrar la imagen
+            utilizando la tecla ESC.
+        */
+
+        document.addEventListener("keydown", function(event) {
+
+            if (event.key === "Escape") {
+
+                cerrarImagen();
+
+            }
+
+        });
+
+
+        /*
+            Evitamos que el formulario recargue
+            la página al presionar enviar.
+        */
+
+        document
+            .getElementById("formulario")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+                alert("¡Gracias por tu mensaje!");
+
+                this.reset();
+
+            });
+
+    </script>
+
+
+</body>
+
+</html>
